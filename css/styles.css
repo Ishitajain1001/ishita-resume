@@ -27,10 +27,18 @@ main {
   margin-top: 55px;
 }
 
-h1, h2, h3 {
+h2, h3 {
   color: #141301ff;
   padding: 0px;
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  color: #141301ff;
+  padding: 0px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 64px;
+  margin-bottom: 0;
 }
 
 h1, h2 {
@@ -61,6 +69,7 @@ nav ul {
   padding: 0px;
   overflow: hidden;
   background-color: #e6b8a2;
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 }
 nav .pages a:hover {
   background-color: #cb997e;
@@ -79,7 +88,6 @@ nav .pages a:hover {
   background-color: white;
 }
 
-
 .home-logo {
   float:left;
   width: 125px;
@@ -97,6 +105,7 @@ nav .pages a:hover {
   background-color: white;
   border: solid black 1px;
   padding: 5px auto;
+  width: 100%;
   margin-top: 0px;
   text-align: center;
   background-color: #e6b8a2;

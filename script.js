@@ -2,6 +2,7 @@
 var currentSlide = 1;
 var slides = document.getElementsByClassName("slideshow");
 displaySlides(currentSlide);
+console.log("Hello");
 
 function moveSlide(change){
   currentSlide += change;
@@ -41,7 +42,3 @@ EXTRA. onclick = currentPage;
 CONTACT. onclick = currentPage;
 REC. onclick = currentPage;
 ABOUT. onclick = currentPage;
-
-
-
-</script>
