@@ -67,7 +67,7 @@
                   <label for="image">Photo</label>
                 </div>
                 <div class="col-2 photo">
-                   <input type="file" id="file-upload" size="54" accept=".JPG, .png, .jpg">
+                   <input type="file" id="file-upload" name = "photo-sumission" size="54" accept=".JPG, .png, .jpg">
                 </div>
               </div>
 
@@ -76,7 +76,7 @@
                   <label for="text">Relationship to Me*</label>
                 </div>
                 <div class="col-2 relationship">
-                   <select id = "myList" required>
+                   <select id = "myList" required name="relationship">
                      <option value = "1">Family</option>
                      <option value = "2">Teacher</option>
                      <option value = "3">Friends</option>
@@ -90,7 +90,7 @@
                   <label for="message">Recommendation Quote*</label>
                 </div>
                 <div class="col-2">
-                  <textarea name="message" rows="7" cols="50" placeholder="Enter kind words here" required></textarea>
+                  <textarea name="message" rows="7" name="recommendation-quote" cols="50" placeholder="Enter kind words here" required></textarea>
                 </div>
               </div>
               <input type="submit" id="submit" name="submit" value="Submit">
