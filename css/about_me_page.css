@@ -11,7 +11,7 @@ img:not(#logo) {
 
 .info {
   display: block;
-  background-color: #f9dcc4;
+  background-color: rgba(196,152,130,0.3);
   border-bottom: solid white 3px;
   padding: 5px 20px;
 }

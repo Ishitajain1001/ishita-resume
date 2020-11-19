@@ -20,7 +20,7 @@ body {
   margin:0px 0px;
   padding: 0px;
   font-family: 'Roboto', sans-serif;
-  background-color: #fff1e6;
+  background-color: #fff1e6; /*#fff1e6*/
 }
 
 main {
@@ -102,7 +102,6 @@ nav .pages a:hover {
 /* footer */
 .social-media {
   display: block;
-  background-color: white;
   border: solid black 1px;
   padding: 5px auto;
   width: 100%;

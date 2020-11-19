@@ -40,8 +40,8 @@ h2 {
   flex: 1;
 }
 
-#submit {
+button {
   width: 98%;
-  height: auto;
+  height: 30px;
   background-color: #e6b8a2;
 }

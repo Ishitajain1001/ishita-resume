@@ -32,7 +32,7 @@
           <p>Fill out the form below if you are interested in contacting me. Thank you!</p>
 
           <div class="wrapper">
-            <form class="form-area" action="contact.php" method="get">
+            <form class="form-area" id="contactForm" action="" method="get">
               <div class="name">
                 <div class="row first-name">
                   <div class="col-1">
@@ -70,7 +70,7 @@
                   <textarea name="message" rows="15" cols="50" placeholder="Enter body text here" required></textarea>
                 </div>
               </div>
-              <input type="submit" id="submit" name="submit" value="Submit">
+              <button type="submit">Submit</button>
             </form>
           </div>
         </div>
@@ -84,4 +84,28 @@
       <a href="https://www.linkedin.com/in/ishita-jain-9b01911a1/" target="_blank"><img src="images/linkedin.png" class = "linkedin-logo" style="width: 35px"></a>
     </div>
   </main>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBHlFjfMj0UnYNj0-OBtNpg4B0jhbBwojQ",
+    authDomain: "contactform-8bd86.firebaseapp.com",
+    databaseURL: "https://contactform-8bd86.firebaseio.com",
+    projectId: "contactform-8bd86",
+    storageBucket: "contactform-8bd86.appspot.com",
+    messagingSenderId: "242693685499",
+    appId: "1:242693685499:web:57bf529b4780f4ea58705e",
+    measurementId: "G-HQFKJ1JEW5"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>

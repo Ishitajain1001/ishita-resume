@@ -10,6 +10,7 @@
   align: center;
   margin: 20px auto;
   border: solid white 10px;
+  border: solid #fff1e6 10px;
 }
 
 
@@ -19,11 +20,15 @@
 }
 .profile {
   text-align: center;
-  margin: 0px 150px;
+  padding: 0px 200px;
+  padding-bottom: 5px;
+  margin: 0px;
+  /* background-color: white; */
 }
+
 button {
   border-radius: 20px;
-  background-color: #A9A9A9;
+  background-color: rgb(212, 207, 205);
   color: white;
   border: none;
   padding: 10px;
@@ -141,5 +146,4 @@ button a {
 /*Recommendaations*/
 .recommendations{
   display: grid;
-  background-color: #fff1e6;
 }

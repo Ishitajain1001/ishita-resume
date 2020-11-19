@@ -42,3 +42,12 @@ EXTRA. onclick = currentPage;
 CONTACT. onclick = currentPage;
 REC. onclick = currentPage;
 ABOUT. onclick = currentPage;
+
+//listener for submitting Form
+document.getElementById('contactForm').addEventListener('submit', submitContactForm);
+
+function submitContactForm(event){
+  e.preventDefault();
+
+  console.log("check");
+}
