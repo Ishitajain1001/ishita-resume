@@ -1,0 +1,22 @@
+{
+  "name": "idk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ishitajain1001/ishita-resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ishitajain1001/ishita-resume/issues"
+  },
+  "homepage": "https://github.com/Ishitajain1001/ishita-resume#readme",
+  "dependencies": {
+    "firebase": "^8.1.1"
+  }
+}
