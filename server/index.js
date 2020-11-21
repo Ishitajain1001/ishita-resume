@@ -4,39 +4,43 @@ var firebase = require("firebase/app");
 var contactForm = require("firebase/database");
 
 const app = express();
-const router = express.Router();
-
-// app.get('/', (req, res) => {
-//   res.send(http);
-// });
+app.use('/static', express.static("public"));
 
 // Home page route
-router.get('/', function(req, res) {
+app.get('/', function(req, res) {
   res.send('home page');
 });
 
 // About page route
-router.get('/about_me', function(req, res) {
+app.get('/about_me', function(req, res) {
   res.send('About me');
 });
 
 // Extracirriculars page route
-router.get('/extracirriculars', function(req, res) {
+app.get('/extracirriculars', function(req, res) {
   res.send('Extracirriculars');
 });
 
 // Recommendations page route
-router.get('/send_me_a_recommendation', function(req, res) {
-  res.send('Recommendations');
+app.get('/send_me_a_recommendation', function(req, res) {
+  res.send('recommendations');
 });
 
 // Contact page route
-router.get('/contact', function(req, res) {
+app.get('/contact', function(req, res) {
   res.send('contact');
 });
 
 
-// app.use(express.static("public"));
+app.get('', function(req, res) {
+  res.send('contact');
+});
+
+app.get('', function(req, res) {
+  res.send('contact');
+});
+
+
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 
