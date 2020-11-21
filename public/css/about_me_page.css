@@ -1,0 +1,155 @@
+img:not(#logo) {
+  display: block;
+  align: center;
+  max-width: 100%;
+  margin: 10px auto;
+}
+
+.fam {
+  margin: 30px auto !important;
+}
+
+.info {
+  display: block;
+  background-color: rgba(196,152,130,0.3);
+  border-bottom: solid white 3px;
+  padding: 5px 20px;
+}
+
+.info img {
+  border: solid white 2px;
+}
+
+p{
+  margin: 30px;
+}
+
+.container {
+  display: grid;
+  margin-left: 50px;
+  margin-right: 50px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.figure {
+  border-radius: 20px;
+  border: solid white 3px;
+  height: 400px;
+}
+
+.row-1 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.row-2 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.col-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.col-2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+
+/* dog section */
+  .dog {
+    margin: 50px 100px;
+    background-color: #EDDCD2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 40px;
+    border: dashed white 3px;
+  }
+
+  .dog: first-child {
+    flex: 0;
+    background-color: white;
+  }
+  .dog: last-child {
+    flex: 1;
+  }
+
+  .monty-pic {
+    position: relative;
+    overflow: hidden;
+    margin: auto auto;
+  }
+
+  .monty-pic img{
+    display: inline-block;
+    margin: 0 auto;
+    width: 500px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    border: solid black 3px;
+  }
+
+  .monty-text {
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .fadeIn {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
