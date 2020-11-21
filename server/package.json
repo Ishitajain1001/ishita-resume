@@ -1,0 +1,27 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "This is a werbsite resume application to provide more detail about Ishita Jain's resume.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ishitajain1001/ishita-resume.git"
+  },
+  "keywords": [
+    "data",
+    "resume"
+  ],
+  "author": "Ishita Jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ishitajain1001/ishita-resume/issues"
+  },
+  "homepage": "https://github.com/Ishitajain1001/ishita-resume#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase": "^8.1.1"
+  }
+}
