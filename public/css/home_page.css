@@ -3,6 +3,15 @@
   text-align: center;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 40px;
+  position:fixed;
+  top: 70px;
+  right:10px;
+}
+
 .profile img {
   display: block;
   width: 250px;
@@ -17,6 +26,7 @@
 #occupation, .location {
   font-style: italic;
 }
+
 .profile {
   text-align: center;
   padding: 0px 200px;
@@ -27,11 +37,12 @@
 
 button {
   border-radius: 20px;
-  background-color: rgb(212, 207, 205);
+  background-color: #cb997e;
   color: white;
   border: none;
   padding: 10px;
 }
+
 button a {
   color: white;
   text-decoration: none;
@@ -41,10 +52,12 @@ button a {
 .project :first-child {
   flex: 0;
 }
+
 .project :last-child {
   flex: 2;
   margin: 15px 30px;
 }
+
 .current-projects {
   background-color: #EDDCD2;
   border-style: dashed;
@@ -57,6 +70,7 @@ button a {
 .current-projects .col {
   flex: 1;
 }
+
 .current-projects img {
   width: 400px;
   height: 400px;
@@ -68,6 +82,7 @@ button a {
 .current-projects h2 {
   font-style: italic;
 }
+
 /*Work experience*/
 .work-experience {
   margin: 50px 0; /*right&left = 100px*/
@@ -86,6 +101,7 @@ button a {
   justify-content: space-between;
   gap: 25px;
 }
+
 .past-work .col {
   flex: 1;
 }
@@ -93,6 +109,7 @@ button a {
 .past-work div {
   width: 30%;
 }
+
 .past-work img {
   width: 275px;
 }
@@ -101,6 +118,7 @@ button a {
   display: flex;
   justify-content: space-between;
 }
+
 .past-work .col{
   width: 100%;
   height:100%;
@@ -122,24 +140,36 @@ button a {
   padding: 30px;
 }
 
+#skills-header {
+  margin: 20px;
+  /* margin-top: 115px; */
+}
+
 /*Skills*/
-.skills {
+.skills-grid {
   display: grid;
-  align-items: center;
-  grid-template-columns: auto auto;
-  padding-left: 175px;
-  padding-right: 125px;
+  width: 870px;
+  padding: 40px;
+  margin: auto;
+  grid-template-columns: 400px 400px;
+  grid-column-gap: 20px;
+  /* align-items: center; */
+  /* padding-right: 90px; */
+  background-color: #EDDCD2;
+  border: solid grey 2px;
 }
 
-.skills .col {
-  padding: 0px;
-  margin: 0px;
+.skills-grid .col {
+  padding: 0 20px 0 20px;
 }
 
+.col-border {
+  border-right: ridge grey 2px;
+}
 
 /*Education*/
-.education {
-
+.education{
+  
 }
 
 /*Recommendaations*/

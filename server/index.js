@@ -36,9 +36,11 @@ app.get('', function(req, res) {
   res.send('contact');
 });
 
-app.get('', function(req, res) {
-  res.send('contact');
+app.get('/name', function(req, res) {
+  res.send(firstName);
 });
+
+
 
 
 // Your web app's Firebase configuration

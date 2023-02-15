@@ -15,7 +15,6 @@
       <ul class = "menu">
         <div class="pages" id = "menu">
           <li><a href="contact.html" class="contact">Contact</a></li>
-          <li><a href="send_me_a_recommendation.html">Send a Reccomendation</a></li>
           <li><a href="extracirriculars.html">Extracirriculars</a></li>
           <li><a href="about_me.html">About Me</a></li>
           <li><a href="index.html">Home</a></li>
@@ -32,7 +31,7 @@
           <p>Fill out the form below if you are interested in contacting me. Thank you!</p>
 
           <div class="wrapper">
-            <form class="form-area" id="contactForm" action="" method="get">
+            <form class="form-area" id="contactform" action="/contact-submission" method="get">
               <div class="name">
                 <div class="row first-name">
                   <div class="col-1">
@@ -70,7 +69,7 @@
                   <textarea name="message" id="message" rows="15" cols="50" placeholder="Enter body text here" required></textarea>
                 </div>
               </div>
-              <button type="submit">Submit</button>
+              <button type="submit" id = "submitBtn">Submit</button>
             </form>
           </div>
         </div>
@@ -84,6 +83,5 @@
       <a href="https://www.linkedin.com/in/ishita-jain-9b01911a1/" target="_blank"><img src="images/linkedin.png" class = "linkedin-logo" style="width: 35px"></a>
     </div>
   </main>
-
-  <script src="./script.js" charset="utf-8"></script>
+  <script src="./contact.js" charset="utf-8"></script>
 </body>

@@ -87,7 +87,15 @@ nav .pages a:hover {
   left: 0;
 }
 
-
+.dot-menu {
+  display: block;
+  background-color: #EDDCD2;
+  padding: 5px;
+  position:fixed;
+  top: 70px;
+  right:10px;
+  border-radius: 20px;
+}
 
 .home, .extra, .contact, .rec, .about {
   /* background-color: #cb997e; */

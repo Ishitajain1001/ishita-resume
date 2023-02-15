@@ -17,7 +17,6 @@
         <ul class = "menu">
           <div class="pages" id = "menu">
             <li><a href="contact.html">Contact</a></li>
-            <li><a href="send_me_a_recommendation.html">Send a Recommendation</a></li>
             <li><a href="extracirriculars.html">Extracirriculars</a></li>
             <li><a href="about_me.html">About Me</a></li>
             <li><a href="" class="home">Home</a></li>
@@ -27,28 +26,36 @@
       </nav>
 
       <!-- ********************  DOT SECTION MENU  *********************** -->
-      <div class="dot-menu">
-        <a href="#profile-occupation"><h4 style="float: right; color: grey; margin: 0px;">.</h4></a>
-        <p style="margin: 0px;"><br></p>
-        <a href="#curr-projects"><h4 style="float: right; color: grey;margin: 0px;">.</h4></a>
-        <p style="margin: 0px;"><br></p>
-        <a href="#work"><h4 style="float: right; color: grey;margin: 0px;">.</h4></a>
-        <p style="margin: 0px;"><br></p>
-        <a href="#skills"><h4 style="float: right; color: grey;margin: 0px;">.</h4></a>
+      <div class="grid">
+        <div class="col-1">
+          <p style="margin: 0px;" id = "profile-label" class="dot-label"></p>
+          <p style="margin: 0px;" id = "project-label" class="dot-label"></p>
+          <p style="margin: 0px;" id = "work-label" class="dot-label"></p>
+          <p style="margin: 0px;" id = "skills-label" class="dot-label"></p>
+        </div>
+        <div class="dot-menu col-2">
+          <a href="#profile-occupation"><img src = "images/dot_white.png" id = "profile-dot" style="width: 15px;"></a>
+          <p style="margin: 5px;"></p>
+          <a href="#curr-projects" id = "project-dot"><img src = "images/dot_white.png" style="width: 15px;"></a>
+          <p style="margin: 5px;"></p>
+          <a href="#work" id = "work-dot"><img src = "images/dot_white.png" style="width: 15px;"></a>
+          <p style="margin: 5px;"></p>
+          <a href="#skills" id = "skills-dot"><img src = "images/dot_white.png" style="width: 15px;"></a>
+        </div>
       </div>
 
       <!-- ********************  PROFILE / ABOUT ME  *********************** -->
-      <a id"profile-occupation"><div class="profile"></a>
+      <a id = "profile-occupation"><div class="profile"></a>
         <header>
           <h1>ISHITA JAIN</h1>
         </header>
         <section>
           <h3 id="occupation">STUDENT</h3>
           <img src="images/profile-pic.jpg"
-          <p class="description">I am a student at Obra D. Tompkins High School. I am very hardworking and organized towards my goals, passions, and projects and my favorite subject is math. I have hobbies in several different areas such as computer science, art, and dance.</p>
+          <p class="description">I am a freshman at UT Austin. I'm majoring in mathematics with a minor in business and obtaining a certification in Scientific Computation and Data Science. I love statistics and how they can help people make informed decisions.</p>
         </section>
         <section class = "resume-button">
-          <button type="button" name="resume"><a href="ishita-jain.pdf" target="_blank">My Resume</a></button>
+          <button type="button" name="resume"><a href="ishita_jain.pdf" target="_blank">My Resume</a></button>
         </section>
         <blockquote cite="http://">
 
@@ -56,7 +63,7 @@
       </div>
 
       <!-- ********************  CURRENT PROJECTS  *********************** -->
-      <a id"curr-projects"><div  class="current-projects"></a>
+      <a id = "curr-projects"><div  class="current-projects"></a>
         <h2>Current Projects</h2>
         <div class="flex-grid project">
           <div><img src="images\bollywood-bound-logo.jpeg" alt="Bollywood Bound Dance Club Logo"></div>
@@ -68,22 +75,22 @@
       <a id="work"><div class="work-experience"></a>
         <h2>Let's Work Together</h2>
         <div class="flex-grid past-work">
-          <div class="robo-fundraising row">
+          <div class="mytutor row">
             <div class="col">
-              <h3>VP of Fundraising (6/2020 - current)</h3>
+              <h3>Mathematics Tutor (1/2023 - Current)</h3>
               <img src="images\kroger-robo.jpg" alt="">
-              <p class = "location">Obra D. Tompkins High School Robotics Club 5427</p>
-              <p>As a VP of the Steel Talons 5427 FIRST Robotics team and I help our team raise money to buy parts of our robot and for our outreach team events by finding sponsorships for our team, contacting corporate companies and families. Currently I have been working on developing a sponsorship packet for our team to send out to sponsors as well as a video to highlight how much we value their sponsorships and how much it has contributed to our team's success. I originally started off as a fundraising leader in 2019 and then got promoted to become a Vice President for our team.</p>
+              <p class = "location">MyTutor</p>
+              <p>I teach students from 9th grade to 12th grade in subjects like Algebra, Geometry, Algebra II, Precalculus, and Calculus. I talk to the student to find out what they are currently learning in school and concepts they are struggling with and arrange material for them to grasp the concepts clearly.</p>
               <p></p>
             </div>
           </div>
 
-          <div class="president-bbdc row">
+          <div class="mathnasium row">
             <div class="col">
-              <h3>Co-President (9/2020 - current)</h3>
+              <h3>Math Instructor (08/2021 - 07/2022)</h3>
               <img src="images\bollywood.jpg" alt="" class="wed-dance">
-              <p class = "location">Obra D. Tompkins High School Bollywood Bound Dance Club</p>
-              <p>I initiated this club in my highschool as an outlet for stress and dancing. As the Co-President, I create choreography for our dances as well as the other officers, fill out the paperwork most of the paperwork for our club, develop and manage our club's website through a platform, and manage our social media. I also coordinate events for potential performances and guide the other officers with their tasks. Currently, I have been attempting to create classes to teach kids Bollywood Dance within our community as a way to raise money for our team and to donate money to other organizations.
+              <p class = "location">Mathnasium at Fulshear</p>
+              <p>In this position I used materials provided by the company to make sure students could understand and apply concepts they have already gone through in school. We also would aid them in their homework, I helped them get to the solutions themselves by finding unique and demonstrative methods to teach them.</p> 
               <p></p>
             </div>
           </div>
@@ -102,27 +109,34 @@
       </div>
 
       <!-- ********************  SKILLS  *********************** -->
-      <a id="skills"><div></a>
-        <h2>Skills</h2>
-        <ul class = "skills">
-          <div class= "col"><li>Computer Programming</li></div>
-          <div class= "col"><li>Languages: English, Hindi, Spanish</li></div>
-          <div class= "col"><li>Proficient in Microsoft, Word, Excell, and Google Drive</li></div>
-          <div class= "col"><li>Leadership</li></div>
-          <div class= "col"><li>Problem Solving</li></div>
+      <a id="skills" class="skills"><div></a>
+        <h2 id = "skills-header">Skills</h2>
+        <ul class = "skills-grid">
+          <div class="col col-border">
+            <div class= "row"><li>Python</li></div>
+            <div class= "row"><li>R Script</li></div>
+            <div class= "row"><li>SQL</li></div>
+            <div class= "row"><li>Proficient in Word, Excell, Powerpoint, and Google Drive</li></div>
+            <div class= "row"><li>Statistics</li></div>
+            <div class= "row"><li>Problem Solving</li></div>
+          </div>
+          <div class="col">
+            <div class="row"><li>Java</li></div>
+            <div class="row"><li>Organization</li></div>
+            <div class="row"><li>Tableau</li></div>
+            <div class="row"><li>Collaboration & Teamwork</li></div>
+            <div class="row"><li>HTML, CSS, and Javascript</li></div>
+          </div>
         </ul>
       </div>
 
       <!-- ********************  EDUCATION  *********************** -->
       <div class = "education">
         <h2>Education</h2>
-        <p>Expected Graduation: 6/2022</p>
-      </div>
-
-      <!-- ********************  RECOMMENDATIONS  *********************** -->
-      <div class = "recommendations">
-        <h2>Recommendations</h2>
-        <p>Insert my recommendations</p>
+        <p>University of Texas at Austin (2022-2025)</p>
+        <p>Bachelors of Science in Mathematics</p>
+        <p>Certicificate in Scientific Computation and Data Science</p>
+        <p>Minor in Business</p>
       </div>
 
       <!-- ********************  footer  *********************** -->
@@ -139,5 +153,5 @@
   <!-- Add Firebase products that you want to use -->
   <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-database.js"></script>
 
-  <script src="./script.js" charset="utf-8"></script>
+  <script src="./home.js" charset="utf-8"></script>
 </html>

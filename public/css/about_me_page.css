@@ -1,4 +1,4 @@
-img:not(#logo) {
+img:not(.logo){
   display: block;
   align: center;
   max-width: 100%;
@@ -24,7 +24,79 @@ p{
   margin: 30px;
 }
 
-.container {
+.flex-grid {
+  background-color: #fadadd;
+  margin: 20px 100px;
+  overflow: hidden;
+}
+
+.figure {
+  margin: 5px;
+  padding: 20px;
+  position: relative;
+  height: 50%;
+  border: white;
+
+}
+
+.figure img{
+  display:block;
+  margin: 0px 0px;
+}
+
+.figcaption {
+  position: absolute;
+  top: 90px;
+  bottom: 0;
+  left:300px;
+  right: 0px;
+  /* width:100%;
+  height:100%; */
+  background-color:rgba(0,0,0,0);
+  transition: .5s ease;
+  opacity: 0;
+}
+
+.figcaption h4{
+  position:absolute;
+  top: 42%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color:rgba(0,0,0,.45);
+  color: white;
+  width: 300px;
+  height: 300px;
+}
+.figure:hover .figcaption, .monty-text {
+  opacity:1;
+}
+
+.flex-grid :child{
+  flex: 2;
+}
+.flex-grid .col {
+  flex: 1;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.flex-grid div {
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .row {
+    flex: 1;
+}
+
+/* .container {
   display: grid;
   margin-left: 50px;
   margin-right: 50px;
@@ -57,7 +129,7 @@ p{
 .col-2 {
   grid-column-start: 2;
   grid-column-end: 3;
-}
+} */
 
 
 /* dog section */
